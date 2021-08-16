@@ -1,11 +1,12 @@
 package com.idtech;
 
 import com.idtech.block.*;
+import com.idtech.enchantment.EnchantmentMod;
 import com.idtech.entity.EntityMod;
 import com.idtech.item.*;
-import com.idtech.structures.StructureMod;
 import com.idtech.world.WorldMod;
 import net.minecraft.block.Block;
+import net.minecraft.enchantment.Enchantment;
 import net.minecraft.entity.EntityType;
 import net.minecraft.item.Item;
 import net.minecraft.util.RegistryKey;
@@ -72,6 +73,14 @@ public class BaseMod {
 
         //EGGS
 
+    }
+
+    @SubscribeEvent
+    public static void registerEnchantments(final RegistryEvent.Register<Enchantment> event)
+    {
+        LOGGER.info("Registering Enchantments");
+
+        EnchantmentMod.registerEnchantments(event);
     }
 
     /**

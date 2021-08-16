@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "ingredient": {
+    "item": "examplemod:yummyfood"
+  },
+  "result": "examplemod:cookedyummyfood",
+  "experience": 0.1,
+  "cookingtime": 100
+}
