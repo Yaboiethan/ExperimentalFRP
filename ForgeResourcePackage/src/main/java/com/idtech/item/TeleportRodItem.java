@@ -1,5 +1,6 @@
 package com.idtech.item;
 
+import com.idtech.ModTab;
 import com.idtech.Utils;
 import net.minecraft.entity.player.PlayerEntity;
 import net.minecraft.item.Item;
@@ -15,7 +16,7 @@ import net.minecraft.item.Item.Properties;
 
 public class TeleportRodItem extends Item {
 
-    private static Item.Properties properties = new Item.Properties().group(ItemGroup.MISC);
+    private static Item.Properties properties = new Item.Properties().group(ModTab.INSTANCE);
     public static Item INSTANCE = new TeleportRodItem(properties).setRegistryName("teleportrod");
 
     public TeleportRodItem(Properties properties)

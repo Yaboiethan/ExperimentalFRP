@@ -1,5 +1,6 @@
 package com.idtech.block;
 
+import com.idtech.ModTab;
 import com.idtech.item.ItemUtils;
 import net.minecraft.block.Block;
 import net.minecraft.block.material.Material;
@@ -16,7 +17,7 @@ public class BlockMod {
     //Basic Block
 
     public static final Block CASTLE_WALL = BlockUtils.createBasicBlock("castlewall", Material.ROCK, 0.5f, 0.9f, ToolType.PICKAXE);
-    public static final Item CASTLE_WALL_ITEM = BlockUtils.createBlockItem(CASTLE_WALL, ItemGroup.MISC);
+    public static final Item CASTLE_WALL_ITEM = BlockUtils.createBlockItem(CASTLE_WALL, ModTab.INSTANCE);
 
 
     @SubscribeEvent

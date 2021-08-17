@@ -3,7 +3,9 @@ package com.idtech;
 import com.idtech.block.*;
 import com.idtech.enchantment.EnchantmentMod;
 import com.idtech.entity.EntityMod;
+import com.idtech.entity.ExampleBlockBenchEntity;
 import com.idtech.item.*;
+import com.idtech.structures.StructureMod;
 import com.idtech.world.WorldMod;
 import net.minecraft.block.Block;
 import net.minecraft.enchantment.Enchantment;
@@ -12,6 +14,7 @@ import net.minecraft.item.Item;
 import net.minecraft.util.RegistryKey;
 import net.minecraft.util.registry.Registry;
 import net.minecraft.world.biome.Biome;
+import net.minecraft.world.gen.feature.structure.Structure;
 import net.minecraftforge.common.BiomeDictionary;
 import net.minecraftforge.event.RegistryEvent;
 import net.minecraftforge.eventbus.api.Event;
@@ -81,6 +84,14 @@ public class BaseMod {
         LOGGER.info("Registering Enchantments");
 
         EnchantmentMod.registerEnchantments(event);
+    }
+
+    @SubscribeEvent
+    public static void registerStructures(final RegistryEvent.Register<Structure<?>> event)
+    {
+        LOGGER.info("Registering Structures");
+
+        StructureMod.registerStructures(event);
     }
 
     /**

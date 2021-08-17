@@ -6,5 +6,8 @@
   "item.examplemod.yummyfood": "Yummy Food",
   "item.examplemod.cookedyummyfood": "Cooked Yummy Food",
   "biome.examplemod.ancient_forest": "Ancient Forest",
-  "enchantment.examplemod.wither_touch": "Withering"
+  "enchantment.examplemod.wither_touch": "Withering",
+  "entity.examplemod.blockbench": "BlockBench",
+  "item.examplemod.blockbench_egg": "BlockBench Spawn Egg",
+  "itemGroup.examplemod": "Example Mod"
 }
