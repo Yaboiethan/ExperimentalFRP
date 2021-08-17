@@ -1,5 +1,5 @@
 ## Links to appropriate code for each lesson
-### Lesson 1 and 2: A New Frontier
+### Lesson 1 and 2: A New Frontier & Exterior Decorating
 * [Ancient Forest Biome](https://github.com/Yaboiethan/ExperimentalFRP/blob/master/ForgeResourcePackage/src/main/java/com/idtech/world/AncientForestBiome.java)
 * [WorldMod](https://github.com/Yaboiethan/ExperimentalFRP/blob/master/ForgeResourcePackage/src/main/java/com/idtech/world/WorldMod.java)
 
