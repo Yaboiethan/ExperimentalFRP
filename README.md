@@ -13,7 +13,7 @@
 
 ### Lesson 5: Organization and Polishing
 * [ModTab.java](https://github.com/Yaboiethan/ExperimentalFRP/blob/master/ForgeResourcePackage/src/main/java/com/idtech/ModTab.java)
-* [Updated en_us.json]((https://github.com/Yaboiethan/ExperimentalFRP/blob/master/ForgeResourcePackage/src/main/resources/assets/examplemod/lang/en_us.json#L12)
+* [Updated en_us.json](https://github.com/Yaboiethan/ExperimentalFRP/blob/master/ForgeResourcePackage/src/main/resources/assets/examplemod/lang/en_us.json#L12)
 
 ### Also see the following:
 * [*registerEnchantments* method](https://github.com/Yaboiethan/ExperimentalFRP/blob/master/ForgeResourcePackage/src/main/java/com/idtech/BaseMod.java#L79)
