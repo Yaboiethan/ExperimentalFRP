@@ -16,7 +16,7 @@
 * [Updated en_us.json](https://github.com/Yaboiethan/ExperimentalFRP/blob/master/ForgeResourcePackage/src/main/resources/assets/examplemod/lang/en_us.json#L12)
 
 ### Also see the following:
-* [*registerEnchantments* method](https://github.com/Yaboiethan/ExperimentalFRP/blob/master/ForgeResourcePackage/src/main/java/com/idtech/BaseMod.java#L79)
-* [*registerBiomes* line](https://github.com/Yaboiethan/ExperimentalFRP/blob/master/ForgeResourcePackage/src/main/java/com/idtech/BaseMod.java#L105)
-* [*setupBiomes* line](https://github.com/Yaboiethan/ExperimentalFRP/blob/master/ForgeResourcePackage/src/main/java/com/idtech/BaseMod.java#L133)
+* [*registerEnchantments* method](https://github.com/Yaboiethan/ExperimentalFRP/blob/master/ForgeResourcePackage/src/main/java/com/idtech/BaseMod.java#L82)
+* [*registerBiomes* line](https://github.com/Yaboiethan/ExperimentalFRP/blob/master/ForgeResourcePackage/src/main/java/com/idtech/BaseMod.java#L116)
+* [*setupBiomes* line](https://github.com/Yaboiethan/ExperimentalFRP/blob/master/ForgeResourcePackage/src/main/java/com/idtech/BaseMod.java#L144)
 * [en_us.json](https://github.com/Yaboiethan/ExperimentalFRP/blob/master/ForgeResourcePackage/src/main/resources/assets/examplemod/lang/en_us.json) lines 8 and 9
