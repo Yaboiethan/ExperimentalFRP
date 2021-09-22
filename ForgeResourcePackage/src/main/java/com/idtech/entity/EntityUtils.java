@@ -1,6 +1,7 @@
 package com.idtech.entity;
 
 import com.idtech.BaseMod;
+import com.idtech.ModTab;
 import net.minecraft.entity.Entity;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.EntityType;
@@ -33,7 +34,7 @@ public class EntityUtils {
      * @return
      */
     public static Item buildEntitySpawnEgg(EntityType type, int primaryColor, int secondaryColor){
-        return new SpawnEggItem(type, primaryColor, secondaryColor, new Item.Properties().group(ItemGroup.MISC)).setRegistryName(type.getRegistryName() + "_egg");
+        return new SpawnEggItem(type, primaryColor, secondaryColor, new Item.Properties().group(ModTab.INSTANCE)).setRegistryName(type.getRegistryName() + "_egg");
     }
     public static AttributeModifierMap.MutableAttribute addAttributes(boolean isZombie, double maxHealth, double followRange, double knockbackResistance, double movementSpeed, double attackDamage, int armor, int armorToughness){
         AttributeModifierMap.MutableAttribute ammma = MobEntity.func_233666_p_();

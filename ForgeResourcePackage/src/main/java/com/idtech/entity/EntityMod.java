@@ -14,18 +14,23 @@ public class EntityMod {
 
         event.getRegistry().register(ExampleBlockBenchEntity.TYPE);
         GlobalEntityTypeAttributes.put(ExampleBlockBenchEntity.TYPE, ExampleBlockBenchEntity.setupAttributes().func_233813_a_());
+
+        event.getRegistry().register(TRexEntity.TYPE);
+        GlobalEntityTypeAttributes.put(TRexEntity.TYPE, TRexEntity.setupAttributes().func_233813_a_());
     }
 
     @SubscribeEvent
     public static void registerEntityEggs(final RegistryEvent.Register<Item> event){
 
     event.getRegistry().register(ExampleBlockBenchEntity.EGG);
+    event.getRegistry().register(TRexEntity.EGG);
 
     }
 
     public static void entityRenderers(){
 
         RenderingRegistry.registerEntityRenderingHandler(ExampleBlockBenchEntity.TYPE, ExampleBlockBenchRenderFactory.INSTANCE);
+        RenderingRegistry.registerEntityRenderingHandler(TRexEntity.TYPE, TRexRenderFactory.INSTANCE);
     }
 
 }

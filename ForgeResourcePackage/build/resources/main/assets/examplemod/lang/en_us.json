@@ -9,5 +9,7 @@
   "enchantment.examplemod.wither_touch": "Withering",
   "entity.examplemod.blockbench": "BlockBench",
   "item.examplemod.blockbench_egg": "BlockBench Spawn Egg",
+  "entity.examplemod.trex": "T Rex",
+  "item.examplemod.trex_egg": "T Rex Spawn Egg",
   "itemGroup.examplemod": "Example Mod"
 }

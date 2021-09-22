@@ -32,7 +32,7 @@ public class WitheringEnchantment extends Enchantment {
     // This currently works similar to the enchantability levels of efficiency, based on the current enchantment level of the player
 
     /**
-     * Returns the maximum level that the enchantment can have.
+     * Returns the maximum leel that the enchantment can have.
      */
     public int getMaxLevel() {
         return 4;
