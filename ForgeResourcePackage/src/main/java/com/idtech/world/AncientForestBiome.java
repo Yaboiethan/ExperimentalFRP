@@ -1,5 +1,6 @@
 package com.idtech.world;
 
+import com.idtech.entity.TRexEntity;
 import net.minecraft.block.Blocks;
 import net.minecraft.entity.EntityClassification;
 import net.minecraft.entity.EntityType;
@@ -38,6 +39,8 @@ public class AncientForestBiome extends Biome {
         this.addSpawn(EntityClassification.CREATURE, new SpawnListEntry(EntityType.PARROT, 30, 2, 6));
         this.addSpawn(EntityClassification.CREATURE, new SpawnListEntry(EntityType.BEE, 27, 2, 3));
         this.addSpawn(EntityClassification.CREATURE, new SpawnListEntry(EntityType.COW, 50, 2, 4));
+        //this.addSpawn(EntityClassification.MONSTER, new SpawnListEntry(TRexEntity.TYPE, 5, 1, 1));
+        //TODO: Uncomment when T-Rex is fixed
     }
 
 }

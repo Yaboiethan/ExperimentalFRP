@@ -83,7 +83,6 @@ public class ExampleBlockBenchModel<T extends ExampleBlockBenchEntity> extends E
      */
     @Override
     public void setRotationAngles(T entityIn, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch) {
-        //TODO: lighter rotation angles. I can see the tops of the legs.
 
         this.backRightLeg.rotateAngleX = MathHelper.cos(limbSwing * 0.6662F) * 1.4F * limbSwingAmount;
         this.backLeftLeg.rotateAngleX = MathHelper.cos(limbSwing * 0.6662F + (float)Math.PI) * 1.4F * limbSwingAmount;

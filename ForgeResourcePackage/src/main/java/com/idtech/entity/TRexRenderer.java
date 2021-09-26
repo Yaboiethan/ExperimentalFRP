@@ -19,8 +19,12 @@ public class TRexRenderer extends MobRenderer<TRexEntity, TRexModel<TRexEntity>>
         return new ResourceLocation(BaseMod.MODID, "textures/entity/trex_texture.png");
     }
 
+    /*
+    This method scales the mob by 5 times and is not required for standard instruction
+     */
     @Override
     protected void preRenderCallback(TRexEntity entitylivingbaseIn, MatrixStack matrixStackIn, float partialTickTime) {
         matrixStackIn.scale(5,5,5);
+        this.shadowSize = 10f;
     }
 }
