@@ -25,6 +25,6 @@ public class TRexRenderer extends MobRenderer<TRexEntity, TRexModel<TRexEntity>>
     @Override
     protected void preRenderCallback(TRexEntity entitylivingbaseIn, MatrixStack matrixStackIn, float partialTickTime) {
         matrixStackIn.scale(5,5,5);
-        this.shadowSize = 10f;
+        this.shadowSize = 4f;
     }
 }

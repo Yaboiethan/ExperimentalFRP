@@ -1,0 +1,7 @@
+{
+  "roar":
+  { "category": "master",
+    "sounds": ["examplemod:roar"],
+    "subtitle": "examplemod.subtitle.roar",
+    "stream": true }
+}

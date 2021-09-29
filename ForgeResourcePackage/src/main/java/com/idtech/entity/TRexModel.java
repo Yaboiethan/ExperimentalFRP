@@ -247,6 +247,8 @@ public class TRexModel<T extends TRexEntity> extends EntityModel<T> {
 		bb_main.render(matrixStack, buffer, packedLight, packedOverlay);
 	}
 
+
+
 	public void setRotationAngle(ModelRenderer modelRenderer, float x, float y, float z) {
 		modelRenderer.rotateAngleX = x;
 		modelRenderer.rotateAngleY = y;

@@ -33,15 +33,13 @@ public class AncientForestBiome extends Biome {
         DefaultBiomeFeatures.addDenseGrass(this);
         DefaultBiomeFeatures.addForestTrees(this);
         DefaultBiomeFeatures.addHugeMushrooms(this);
+        DefaultBiomeFeatures.addCarvers(this);
         //Mobs
         this.addSpawn(EntityClassification.MONSTER, new SpawnListEntry(EntityType.ZOMBIE, 25, 1, 3));
         this.addSpawn(EntityClassification.MONSTER, new SpawnListEntry(EntityType.CREEPER, 15, 1, 1));
         this.addSpawn(EntityClassification.CREATURE, new SpawnListEntry(EntityType.PARROT, 30, 2, 6));
         this.addSpawn(EntityClassification.CREATURE, new SpawnListEntry(EntityType.BEE, 27, 2, 3));
         this.addSpawn(EntityClassification.CREATURE, new SpawnListEntry(EntityType.COW, 50, 2, 4));
-        //this.addSpawn(EntityClassification.MONSTER, new SpawnListEntry(TRexEntity.TYPE, 5, 1, 1));
-        //TODO: Uncomment when T-Rex is fixed
     }
-
 }
 
